@@ -1,0 +1,88 @@
+footer {
+  justify-content: center;
+  flex-flow: column nowrap;
+  
+}
+.info-container {
+  width: 100%;
+  height: auto;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+}
+.info {
+  width: 80%;
+  height: auto;
+  background: white;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 2rem;
+  color: #333;
+  transition: all .5s;
+
+}
+.info p {
+  font-size: 1.5rem;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.info:hover {
+  transform: scale(1.1);
+  
+}
+.foot {
+  display: flex;
+  flex-flow: column;
+}
+
+.footer  {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background: #0c0225;
+  
+}
+.footer h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+.footer div ul {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  /* background: red; */
+  list-style-type: none;
+  height: 200px;
+  
+}
+
+.footer a, li {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: whitesmoke;
+}
+/* .services li, .technologies li, .languages li, .portofolio li {
+  text-align: center;
+  /* background: red; */
+
+.footer li {
+  text-align: left;
+  line-height: 1rem;
+}
+.services li, .languages li{
+  text-align: center;
+}
+.mobile-footer {
+  display: none;
+}
+i {
+  padding-right: 1rem;
+  width: 3rem;
+  text-align: center;
+}

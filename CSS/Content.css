@@ -1,0 +1,132 @@
+main {
+  flex-direction: column;
+  position: relative;
+  background: #091921;
+
+}
+.circle {
+  width: 50%;
+  height: 500px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  text-align: center;
+  position: relative;
+  color: white;
+  margin: 10px;
+  background: #091921;
+  
+  
+}
+
+main h1 {
+  font-size: 3rem;
+}
+.greetings {
+  margin-bottom: 2rem;
+  color: white;
+}
+.job {
+  color: rgb(13, 67, 120);
+  margin-top: 2rem;
+  white-space: nowrap;
+  /* background: red; */
+  overflow: hidden;
+  border-right: 4px solid rgb(13, 67, 120);
+  animation: typing 9s steps(16) infinite;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  
+}
+
+h1 .names {
+  color: yellow;
+  white-space: nowrap;
+  
+}
+@keyframes typing {
+  0% {
+    width: 0ch;
+  }
+  50% {
+    width: 18ch;
+  }
+  100% {
+    width: 0ch;
+  }
+}
+
+button {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  background: dodgerblue;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  transition: all .5s;
+}
+.suggestion {
+  margin: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.hire {
+  border: none;
+  
+}
+.hire:hover {
+  background: purple;
+  
+}
+.contact-btn {
+  position: relative;
+  background: none;
+  border: 1.5px solid white;
+  font-family: monospace;
+  background: transparent;
+  z-index: 1;
+}
+.contact-btn:hover {
+  color: black;
+}
+.contact-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: white;
+  border-radius: 10px;
+  z-index: -1;
+  transition: all .9s;
+}
+.contact-btn:hover::before {
+  width: 100%;
+  transition: all .5s;
+  
+}
+
+.me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+  border-radius: 10px;
+  transition: .5s;
+}
+.me:hover {
+  opacity: 0.3;
+  transition: .5s;
+}
+button {
+  cursor: pointer;
+}
+
